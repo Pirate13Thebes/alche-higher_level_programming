@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module that defines a Rectangle class with a bigger_or_equal static method."""
+"""Module that defines a Rectangle class with bigger_or_equal method."""
 
 
 class Rectangle:
@@ -83,7 +83,7 @@ class Rectangle:
         """Compute and return the perimeter of the rectangle.
 
         Returns:
-            int: The perimeter of the rectangle, or 0 if width or height is 0.
+            int: The perimeter, or 0 if width or height is 0.
         """
         if self.__width == 0 or self.__height == 0:
             return 0
@@ -122,7 +122,7 @@ class Rectangle:
             rect_2 (Rectangle): The second rectangle.
 
         Raises:
-            TypeError: If rect_1 or rect_2 is not an instance of Rectangle.
+            TypeError: If rect_1 or rect_2 is not a Rectangle instance.
 
         Returns:
             Rectangle: The rectangle with the bigger or equal area.
